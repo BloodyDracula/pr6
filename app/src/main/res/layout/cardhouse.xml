@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/cardhouse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/theme2_title"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/house"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/theme2_description"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buthome" />
+</LinearLayout>
